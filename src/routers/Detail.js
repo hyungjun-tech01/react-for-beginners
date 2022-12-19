@@ -18,8 +18,7 @@ function Detail(){
         setLoading(false);
         
     }
-    console.log(movieDetail.id, movieDetail.title);
-
+    
     useEffect( ()=>{getSingleMovie();}
         ,[])
     return (
